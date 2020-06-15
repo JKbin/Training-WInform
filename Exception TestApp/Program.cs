@@ -13,7 +13,7 @@ namespace Exception_TestApp
     {
         static void Main(string[] args)
         {
-            int x = 100, y = 0, value = 0;
+            int x = 100, y = 10, value = 0;
            
 
 
