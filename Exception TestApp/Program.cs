@@ -17,7 +17,6 @@ namespace Exception_TestApp
            
 
 
-            value = x / y;
             Console.WriteLine($"value = {value}");
 
             try
