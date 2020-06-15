@@ -51,9 +51,9 @@ namespace GenericApp
 
             gintegers.print();
             gDoubles.print();
+        
 
-
-
+            
 
         }
     }
