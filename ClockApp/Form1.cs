@@ -34,16 +34,18 @@ namespace ClockApp
 
         }
 
-        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        private void Form1_FormClosing_1(object sender, FormClosingEventArgs e)
         {
-            MessageBox.Show("Form 클로즈시 발생");
-
-        }
-
-        private void Form1_Activated(object sender, EventArgs e)
-        {
-            MessageBox.Show("Form 활성화시 발생");
-
+            if (MessageBox.Show("진짜 닫을래?", "경고",
+                MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            {
+                e.Cancel = false;               // 취소를 안시켜서 종료시킨다.
+               
+            }
+            else
+            {
+                e.Cancel = true;                // 취소시키니깐 종료안됨.
+            }
         }
     }
 }
