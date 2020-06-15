@@ -7,3 +7,4 @@ C:\SRC\Training-Winform\ClockApp\obj\Debug\ClockApp.csproj.CoreCompileInputs.cac
 C:\SRC\Training-Winform\ClockApp\obj\Debug\ClockApp.exe
 C:\SRC\Training-Winform\ClockApp\obj\Debug\ClockApp.pdb
 C:\SRC\Training-Winform\ClockApp\obj\Debug\ClockApp.Form1.resources
+C:\SRC\Training-Winform\ClockApp\obj\Debug\ClockApp.csprojAssemblyReference.cache
