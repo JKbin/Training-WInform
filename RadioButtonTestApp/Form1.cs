@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Diagnostics;       //49번코드에서 alt+enter를 눌러 추가를 시켜줘야 49번코드에 빨간줄이 안뜬다.
 using System.Windows.Forms;
 
 namespace RadioButtonTestApp
@@ -40,6 +34,12 @@ namespace RadioButtonTestApp
         private void Form1_Load(object sender, EventArgs e)
         {
             label1.Text = string.Empty;
+
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start(linkLabel1.Text);             //process에서 alt+enter를 눌러서 2번코드 Diagnostics를 추가시켜야함
 
         }
     }
