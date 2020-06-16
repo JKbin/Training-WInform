@@ -8,20 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace LoginApp
+namespace MainMenuApp
 {
     public partial class Form1 : Form
     {
         public Form1()
         {
             InitializeComponent();
-        }
-
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            textBox3.Text = $"ID : {textBox1.Text} \n  Password : {textBox2.Text}";
-
         }
     }
 }

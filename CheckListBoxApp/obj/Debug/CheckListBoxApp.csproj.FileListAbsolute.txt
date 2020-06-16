@@ -1,0 +1,9 @@
+C:\SRC\Training-Winform\CheckListBoxApp\bin\Debug\CheckListBoxApp.exe.config
+C:\SRC\Training-Winform\CheckListBoxApp\bin\Debug\CheckListBoxApp.exe
+C:\SRC\Training-Winform\CheckListBoxApp\bin\Debug\CheckListBoxApp.pdb
+C:\SRC\Training-Winform\CheckListBoxApp\obj\Debug\CheckListBoxApp.Form1.resources
+C:\SRC\Training-Winform\CheckListBoxApp\obj\Debug\CheckListBoxApp.Properties.Resources.resources
+C:\SRC\Training-Winform\CheckListBoxApp\obj\Debug\CheckListBoxApp.csproj.GenerateResource.cache
+C:\SRC\Training-Winform\CheckListBoxApp\obj\Debug\CheckListBoxApp.csproj.CoreCompileInputs.cache
+C:\SRC\Training-Winform\CheckListBoxApp\obj\Debug\CheckListBoxApp.exe
+C:\SRC\Training-Winform\CheckListBoxApp\obj\Debug\CheckListBoxApp.pdb

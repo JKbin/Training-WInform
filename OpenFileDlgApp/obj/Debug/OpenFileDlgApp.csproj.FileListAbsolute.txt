@@ -1,0 +1,10 @@
+C:\SRC\Training-Winform\OpenFileDlgApp\bin\Debug\OpenFileDlgApp.exe.config
+C:\SRC\Training-Winform\OpenFileDlgApp\bin\Debug\OpenFileDlgApp.exe
+C:\SRC\Training-Winform\OpenFileDlgApp\bin\Debug\OpenFileDlgApp.pdb
+C:\SRC\Training-Winform\OpenFileDlgApp\obj\Debug\OpenFileDlgApp.Form1.resources
+C:\SRC\Training-Winform\OpenFileDlgApp\obj\Debug\OpenFileDlgApp.Properties.Resources.resources
+C:\SRC\Training-Winform\OpenFileDlgApp\obj\Debug\OpenFileDlgApp.csproj.GenerateResource.cache
+C:\SRC\Training-Winform\OpenFileDlgApp\obj\Debug\OpenFileDlgApp.csproj.CoreCompileInputs.cache
+C:\SRC\Training-Winform\OpenFileDlgApp\obj\Debug\OpenFileDlgApp.exe
+C:\SRC\Training-Winform\OpenFileDlgApp\obj\Debug\OpenFileDlgApp.pdb
+C:\SRC\Training-Winform\OpenFileDlgApp\obj\Debug\OpenFileDlgApp.csprojAssemblyReference.cache

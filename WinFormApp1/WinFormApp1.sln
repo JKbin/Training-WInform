@@ -13,6 +13,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckBoxTestApp", "..\Check
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioButtonTestApp", "..\RadioButtonTestApp\RadioButtonTestApp.csproj", "{8D526CC8-DA44-456D-8FBB-15CA83688353}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginApp2", "..\LoginApp2\LoginApp2.csproj", "{1A39531A-912F-460B-9E9E-CBDB6E331C01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListControlTestApp", "..\ListControlTestApp\ListControlTestApp.csproj", "{BF0A2356-00D0-408B-AA35-A4F00AF36981}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckListBoxApp", "..\CheckListBoxApp\CheckListBoxApp.csproj", "{567D7E85-96C8-4E6A-9398-1920DC5CBE58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModalDlgApp", "..\ModalDlgApp\ModalDlgApp.csproj", "{301D94CC-B95F-42C0-8BC9-9D0BCD61D983}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenFileDlgApp", "..\OpenFileDlgApp\OpenFileDlgApp.csproj", "{643E0A08-BB87-4EA0-A595-68C6665986CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainMenuApp", "..\MainMenuApp\MainMenuApp.csproj", "{31443CA1-1880-4A53-8224-652597E2A0F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +51,30 @@ Global
 		{8D526CC8-DA44-456D-8FBB-15CA83688353}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D526CC8-DA44-456D-8FBB-15CA83688353}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D526CC8-DA44-456D-8FBB-15CA83688353}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A39531A-912F-460B-9E9E-CBDB6E331C01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A39531A-912F-460B-9E9E-CBDB6E331C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A39531A-912F-460B-9E9E-CBDB6E331C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A39531A-912F-460B-9E9E-CBDB6E331C01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF0A2356-00D0-408B-AA35-A4F00AF36981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF0A2356-00D0-408B-AA35-A4F00AF36981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF0A2356-00D0-408B-AA35-A4F00AF36981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF0A2356-00D0-408B-AA35-A4F00AF36981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{567D7E85-96C8-4E6A-9398-1920DC5CBE58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{567D7E85-96C8-4E6A-9398-1920DC5CBE58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{567D7E85-96C8-4E6A-9398-1920DC5CBE58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{567D7E85-96C8-4E6A-9398-1920DC5CBE58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{301D94CC-B95F-42C0-8BC9-9D0BCD61D983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{301D94CC-B95F-42C0-8BC9-9D0BCD61D983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{301D94CC-B95F-42C0-8BC9-9D0BCD61D983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{301D94CC-B95F-42C0-8BC9-9D0BCD61D983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{643E0A08-BB87-4EA0-A595-68C6665986CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{643E0A08-BB87-4EA0-A595-68C6665986CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{643E0A08-BB87-4EA0-A595-68C6665986CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{643E0A08-BB87-4EA0-A595-68C6665986CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31443CA1-1880-4A53-8224-652597E2A0F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31443CA1-1880-4A53-8224-652597E2A0F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31443CA1-1880-4A53-8224-652597E2A0F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31443CA1-1880-4A53-8224-652597E2A0F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

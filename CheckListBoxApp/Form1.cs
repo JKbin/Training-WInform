@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace LoginApp
+namespace CheckListBoxApp
 {
     public partial class Form1 : Form
     {
@@ -17,11 +17,18 @@ namespace LoginApp
             InitializeComponent();
         }
 
+       
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox3.Text = $"ID : {textBox1.Text} \n  Password : {textBox2.Text}";
+            var strTemp = "";
 
+            foreach (var item in checkedListBox1.CheckedItems)
+            {
+                strTemp += item.ToString() + " ";
+
+            }
+            MessageBox.Show($"당신의 취미는 {strTemp} 입니다.", "확인", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
