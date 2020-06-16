@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormApp1", "WinFormApp1.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClockApp", "..\ClockApp\ClockApp.csproj", "{34415D71-8431-4B29-90DC-B3AB9B28798D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButtonTestApp", "..\ButtonTestApp\ButtonTestApp.csproj", "{35A455D1-4CFB-424A-A66C-6A92168DD50F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckBoxTestApp", "..\CheckBoxTestApp\CheckBoxTestApp.csproj", "{750B753F-B83A-4EBD-92C2-7B24EF22D508}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{34415D71-8431-4B29-90DC-B3AB9B28798D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34415D71-8431-4B29-90DC-B3AB9B28798D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34415D71-8431-4B29-90DC-B3AB9B28798D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35A455D1-4CFB-424A-A66C-6A92168DD50F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35A455D1-4CFB-424A-A66C-6A92168DD50F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35A455D1-4CFB-424A-A66C-6A92168DD50F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35A455D1-4CFB-424A-A66C-6A92168DD50F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{750B753F-B83A-4EBD-92C2-7B24EF22D508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{750B753F-B83A-4EBD-92C2-7B24EF22D508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{750B753F-B83A-4EBD-92C2-7B24EF22D508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{750B753F-B83A-4EBD-92C2-7B24EF22D508}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
