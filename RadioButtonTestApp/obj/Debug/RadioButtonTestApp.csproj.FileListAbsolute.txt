@@ -1,0 +1,10 @@
+C:\SRC\Training-Winform\RadioButtonTestApp\bin\Debug\RadioButtonTestApp.exe.config
+C:\SRC\Training-Winform\RadioButtonTestApp\bin\Debug\RadioButtonTestApp.exe
+C:\SRC\Training-Winform\RadioButtonTestApp\bin\Debug\RadioButtonTestApp.pdb
+C:\SRC\Training-Winform\RadioButtonTestApp\obj\Debug\RadioButtonTestApp.csprojAssemblyReference.cache
+C:\SRC\Training-Winform\RadioButtonTestApp\obj\Debug\RadioButtonTestApp.Form1.resources
+C:\SRC\Training-Winform\RadioButtonTestApp\obj\Debug\RadioButtonTestApp.Properties.Resources.resources
+C:\SRC\Training-Winform\RadioButtonTestApp\obj\Debug\RadioButtonTestApp.csproj.GenerateResource.cache
+C:\SRC\Training-Winform\RadioButtonTestApp\obj\Debug\RadioButtonTestApp.csproj.CoreCompileInputs.cache
+C:\SRC\Training-Winform\RadioButtonTestApp\obj\Debug\RadioButtonTestApp.exe
+C:\SRC\Training-Winform\RadioButtonTestApp\obj\Debug\RadioButtonTestApp.pdb
