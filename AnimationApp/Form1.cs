@@ -1,0 +1,29 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace AnimationApp
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private int index = 0;
+
+        private void timer1_Tick(object sender, EventArgs e)        // Tick에는 for(반복문)사용불가
+        {
+            index %= imageList1.Images.Count;
+            label1.Image = imageList1.Images[index++];
+
+        }
+    }
+}

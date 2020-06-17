@@ -1,0 +1,10 @@
+C:\SRC\Training-Winform\ProgressApp\bin\Debug\ProgressApp.exe.config
+C:\SRC\Training-Winform\ProgressApp\bin\Debug\ProgressApp.exe
+C:\SRC\Training-Winform\ProgressApp\bin\Debug\ProgressApp.pdb
+C:\SRC\Training-Winform\ProgressApp\obj\Debug\ProgressApp.csprojAssemblyReference.cache
+C:\SRC\Training-Winform\ProgressApp\obj\Debug\ProgressApp.Form1.resources
+C:\SRC\Training-Winform\ProgressApp\obj\Debug\ProgressApp.Properties.Resources.resources
+C:\SRC\Training-Winform\ProgressApp\obj\Debug\ProgressApp.csproj.GenerateResource.cache
+C:\SRC\Training-Winform\ProgressApp\obj\Debug\ProgressApp.csproj.CoreCompileInputs.cache
+C:\SRC\Training-Winform\ProgressApp\obj\Debug\ProgressApp.exe
+C:\SRC\Training-Winform\ProgressApp\obj\Debug\ProgressApp.pdb

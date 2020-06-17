@@ -1,0 +1,10 @@
+C:\SRC\Training-Winform\ViewGraphicApp\bin\Debug\ViewGraphicApp.exe.config
+C:\SRC\Training-Winform\ViewGraphicApp\bin\Debug\ViewGraphicApp.exe
+C:\SRC\Training-Winform\ViewGraphicApp\bin\Debug\ViewGraphicApp.pdb
+C:\SRC\Training-Winform\ViewGraphicApp\obj\Debug\ViewGraphicApp.Properties.Resources.resources
+C:\SRC\Training-Winform\ViewGraphicApp\obj\Debug\ViewGraphicApp.csproj.GenerateResource.cache
+C:\SRC\Training-Winform\ViewGraphicApp\obj\Debug\ViewGraphicApp.csproj.CoreCompileInputs.cache
+C:\SRC\Training-Winform\ViewGraphicApp\obj\Debug\ViewGraphicApp.exe
+C:\SRC\Training-Winform\ViewGraphicApp\obj\Debug\ViewGraphicApp.pdb
+C:\SRC\Training-Winform\ViewGraphicApp\obj\Debug\ViewGraphicApp.Form1.resources
+C:\SRC\Training-Winform\ViewGraphicApp\obj\Debug\ViewGraphicApp.csprojAssemblyReference.cache
