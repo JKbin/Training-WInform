@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimationApp", "..\Animatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewGraphicApp", "..\ViewGraphicApp\ViewGraphicApp.csproj", "{FF77936D-70EE-4ECD-BB4B-3D46004EEA2A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChartControlApp", "..\ChartControlApp\ChartControlApp.csproj", "{F168343F-5D5E-4AE9-B6E3-88774167F2A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookRentalShop20", "..\BookRentalShop20\BookRentalShop20.csproj", "{04283314-BA4F-4140-830E-F49BBCA816E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,14 @@ Global
 		{FF77936D-70EE-4ECD-BB4B-3D46004EEA2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF77936D-70EE-4ECD-BB4B-3D46004EEA2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF77936D-70EE-4ECD-BB4B-3D46004EEA2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F168343F-5D5E-4AE9-B6E3-88774167F2A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F168343F-5D5E-4AE9-B6E3-88774167F2A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F168343F-5D5E-4AE9-B6E3-88774167F2A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F168343F-5D5E-4AE9-B6E3-88774167F2A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04283314-BA4F-4140-830E-F49BBCA816E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04283314-BA4F-4140-830E-F49BBCA816E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04283314-BA4F-4140-830E-F49BBCA816E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04283314-BA4F-4140-830E-F49BBCA816E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

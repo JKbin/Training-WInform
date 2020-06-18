@@ -1,0 +1,14 @@
+C:\SRC\Training-Winform\ChartControlApp\bin\Debug\ChartControlApp.exe.config
+C:\SRC\Training-Winform\ChartControlApp\bin\Debug\ChartControlApp.exe
+C:\SRC\Training-Winform\ChartControlApp\bin\Debug\ChartControlApp.pdb
+C:\SRC\Training-Winform\ChartControlApp\obj\Debug\ChartControlApp.csprojAssemblyReference.cache
+C:\SRC\Training-Winform\ChartControlApp\obj\Debug\ChartControlApp.Form1.resources
+C:\SRC\Training-Winform\ChartControlApp\obj\Debug\ChartControlApp.Properties.Resources.resources
+C:\SRC\Training-Winform\ChartControlApp\obj\Debug\ChartControlApp.csproj.GenerateResource.cache
+C:\SRC\Training-Winform\ChartControlApp\obj\Debug\ChartControlApp.csproj.CoreCompileInputs.cache
+C:\SRC\Training-Winform\ChartControlApp\obj\Debug\ChartControlApp.exe
+C:\SRC\Training-Winform\ChartControlApp\obj\Debug\ChartControlApp.pdb
+C:\SRC\Training-Winform\ChartControlApp\bin\Debug\MetroFramework.Design.dll
+C:\SRC\Training-Winform\ChartControlApp\bin\Debug\MetroFramework.dll
+C:\SRC\Training-Winform\ChartControlApp\bin\Debug\MetroFramework.Fonts.dll
+C:\SRC\Training-Winform\ChartControlApp\obj\Debug\ChartControlApp.csproj.CopyComplete
