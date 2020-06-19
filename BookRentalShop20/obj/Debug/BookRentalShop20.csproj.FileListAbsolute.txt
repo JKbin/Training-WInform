@@ -13,3 +13,5 @@ C:\SRC\Training-Winform\BookRentalShop20\obj\Debug\BookRentalShop20.csprojAssemb
 C:\SRC\Training-Winform\BookRentalShop20\obj\Debug\BookRentalShop20.MainForm.resources
 C:\SRC\Training-Winform\BookRentalShop20\obj\Debug\BookRentalShop20.csproj.CopyComplete
 C:\SRC\Training-Winform\BookRentalShop20\obj\Debug\BookRentalShop20.LoginForm.resources
+C:\SRC\Training-Winform\BookRentalShop20\obj\Debug\BookRentalShop20.DivForm.resources
+C:\SRC\Training-Winform\BookRentalShop20\obj\Debug\BookRentalShop20.UserForm.resources

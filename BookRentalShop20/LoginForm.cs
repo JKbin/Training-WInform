@@ -11,7 +11,7 @@ namespace BookRentalShop20
     public partial class LoginForm : MetroForm              //메트로폼 적용
     {
         string strConnString = "Data Source=192.168.0.83;Initial Catalog=BookRentalDB;Persist Security Info=True;User ID=sa;Password=p@ssw0rd!";
-                                              //    IP,           사용하고자하는 DB, 연결문자열이 필수로 들어가야함                                   
+                                            //    IP,           사용하고자하는 DB, 연결문자열이 필수로 들어가야함                 
         public LoginForm()
         {
             InitializeComponent();
@@ -72,35 +72,52 @@ namespace BookRentalShop20
 
             string strUserid = string.Empty;
 
-            using (SqlConnection conn = new SqlConnection(strConnString))               //Sql 연결하는 것
+            try                                                                                 // try ~ catch구문 (Error 핸들링)
             {
-                conn.Open();
-                SqlCommand cmd = new SqlCommand();
-                cmd.Connection = conn;
-                cmd.CommandText = "select userID from usertbl " +
-                    " where userid = @userID " +
-                    " and password = @Password";
-                SqlParameter parmUserID = new SqlParameter("@userID", SqlDbType.VarChar, 12);               //DB의 type과 int size를 넣어야함
-                parmUserID.Value = TxtUserID.Text;
-                cmd.Parameters.Add(parmUserID);
-                //ID
-                SqlParameter parmPassword = new SqlParameter("@Password", SqlDbType.VarChar, 20);
-                parmPassword.Value = TxtPassword.Text;
-                cmd.Parameters.Add(parmPassword);
-                //Password
+                using (SqlConnection conn = new SqlConnection(strConnString))               //Sql 연결하는 것
+                {
+                    conn.Open();
+                    SqlCommand cmd = new SqlCommand();
+                    cmd.Connection = conn;
+                    cmd.CommandText = "select userID from usertbl " +
+                        " where userid = @userID " +
+                        " and password = @Password";
+                    SqlParameter parmUserID = new SqlParameter("@userID", SqlDbType.VarChar, 12);               //DB의 type과 int size를 넣어야함
+                    parmUserID.Value = TxtUserID.Text;
+                    cmd.Parameters.Add(parmUserID);
+                    //ID
+                    SqlParameter parmPassword = new SqlParameter("@Password", SqlDbType.VarChar, 20);
+                    parmPassword.Value = TxtPassword.Text;
+                    cmd.Parameters.Add(parmPassword);
+                    //Password
 
-                SqlDataReader reader = cmd.ExecuteReader();
-                reader.Read();
-                strUserid = reader["userID"].ToString();
+                    SqlDataReader reader = cmd.ExecuteReader();
+                    reader.Read();
+                    strUserid = reader["userID"] != null ? reader["userID"].ToString() : "";               //아이디값이 없을 때
 
-                MetroMessageBox.Show(this, "접속성공", "로그인");
-                Debug.WriteLine("On the Debug");
-
-
-
-
+                    if (strUserid != "")
+                    {
+                        MetroMessageBox.Show(this, "접속성공", "로그인성공");
+                        this.Close();                                           //Loginform창이 닫힘
+                    }
+                    else
+                    {
+                        MetroMessageBox.Show(this, "접속실패", "로그인실패",
+                            MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+                    //Debug.WriteLine("On the Debug");
+                }
 
             }
+            catch (Exception ex)
+            {
+                MetroMessageBox.Show(this, $"Error : {ex.StackTrace}", "오류",            // StackTrace : 오류난 곳의 코드 주소를 보여줌 (개발자가 봄)
+                MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+
+                
+            }
+          
         }
     }
 }
