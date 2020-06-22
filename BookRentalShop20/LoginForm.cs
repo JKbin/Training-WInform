@@ -3,15 +3,12 @@ using MetroFramework.Forms;
 using System;
 using System.Data;
 using System.Data.SqlClient;
-using System.Diagnostics;
 using System.Windows.Forms;
 
 namespace BookRentalShop20
 {
     public partial class LoginForm : MetroForm              //메트로폼 적용
     {
-        string strConnString = "Data Source=192.168.0.83;Initial Catalog=BookRentalDB;Persist Security Info=True;User ID=sa;Password=p@ssw0rd!";
-                                            //    IP,           사용하고자하는 DB, 연결문자열이 필수로 들어가야함                 
         public LoginForm()
         {
             InitializeComponent();
@@ -74,7 +71,7 @@ namespace BookRentalShop20
 
             try                                                                                 // try ~ catch구문 (Error 핸들링)
             {
-                using (SqlConnection conn = new SqlConnection(strConnString))               //Sql 연결하는 것
+                using (SqlConnection conn = new SqlConnection(Commons.CONNSTRING))               //Sql 연결하는 것
                 {
                     conn.Open();
                     SqlCommand cmd = new SqlCommand();
@@ -97,6 +94,7 @@ namespace BookRentalShop20
 
                     if (strUserid != "")
                     {
+                        Commons.LOGINUSERID = strUserid;                        //자식창에서 부모창으로 데이터를 보낼 때!
                         MetroMessageBox.Show(this, "접속성공", "로그인성공");
                         this.Close();                                           //Loginform창이 닫힘
                     }

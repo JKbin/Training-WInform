@@ -3,15 +3,12 @@ using MetroFramework.Forms;
 using System;
 using System.Data;
 using System.Data.SqlClient;
-using System.Diagnostics;
-using System.Drawing;
 using System.Windows.Forms;
 
 namespace BookRentalShop20
 {
     public partial class UserForm : MetroForm
     {
-        string strConnString = "Data Source=192.168.0.83;Initial Catalog=BookRentalDB;Persist Security Info=True;User ID=sa;Password=p@ssw0rd!";
         string mode = "";
         public UserForm()
         {
@@ -29,7 +26,7 @@ namespace BookRentalShop20
         {
             //throw new NotImplementedException();
 
-            using (SqlConnection conn = new SqlConnection(strConnString))               //strConnString : 데이터문자열 (이게있어야 DB연동가능)
+            using (SqlConnection conn = new SqlConnection(Commons.CONNSTRING))               //strConnString : 데이터문자열 (이게있어야 DB연동가능)
             {
                 conn.Open();    // DB열기
                 string strQuery = "SELECT id,userID,password,lastLoginDt,loginIpAddr " +
@@ -41,8 +38,8 @@ namespace BookRentalShop20
 
                 GrdUserTbl.DataSource = ds;                                              //데이터를 부었다.
                 GrdUserTbl.DataMember = "divtbl";
-
             }
+
             DataGridViewColumn column = GrdUserTbl.Columns[0];      //id컬럼
             column.Width = 40;
             column.HeaderText = "순번";
@@ -58,8 +55,6 @@ namespace BookRentalShop20
             column = GrdUserTbl.Columns[4];         //userID 컬럼
             column.Width = 150;
             column.HeaderText = "접속아이피주소";      //접속아이피주소
-
-
         }
         /// <summary>
         /// 그리드 셀클릭 이벤트
@@ -83,7 +78,6 @@ namespace BookRentalShop20
             TxtUserID.Text = TxtPassword.Text = "";
             TxtUserID.ReadOnly = false;
             mode = "INSERT";                                                        //신규는 INSERT
-                    
         }
 
         private void BtnSave_Click(object sender, EventArgs e)
@@ -93,13 +87,11 @@ namespace BookRentalShop20
                 MetroMessageBox.Show(this, "빈 값은 저장할 수 없습니다.", "경고",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
-
             }
 
             SaveProcess();
             UpdateData();
             ClearTextControls();
-
         }
 
         private void ClearTextControls()
@@ -108,7 +100,6 @@ namespace BookRentalShop20
             //TxtUserID.ReadOnly = false;
             //TxtUserID.BackColor = Color.White;
             TxtUserID.Focus();
-
         }
 
         private void SaveProcess()
@@ -121,7 +112,7 @@ namespace BookRentalShop20
 
             }
             //DB저장프로세스
-            using (SqlConnection conn = new SqlConnection(strConnString))
+            using (SqlConnection conn = new SqlConnection(Commons.CONNSTRING))
             {
                 conn.Open();
                 SqlCommand cmd = new SqlCommand();
@@ -140,7 +131,6 @@ namespace BookRentalShop20
                 {
                     strQuery = " INSERT INTO dbo.userTbl(userID, password) " +
                                " VALUES (@UserID, @Password) ";
-  
                 }
 
                 cmd.CommandText = strQuery;
@@ -158,9 +148,7 @@ namespace BookRentalShop20
                     SqlParameter parmId = new SqlParameter("@Id", SqlDbType.Int);
                     parmId.Value = TxtId.Text;
                     cmd.Parameters.Add(parmId);
-
                 }
-
                 cmd.ExecuteNonQuery();                      //쿼리문실행
             }
         }
@@ -174,16 +162,14 @@ namespace BookRentalShop20
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-
             DeleteProcess();
             UpdateData();
             ClearTextControls();
-
         }
 
         private void DeleteProcess()
         {
-            using (SqlConnection conn = new SqlConnection(strConnString))
+            using (SqlConnection conn = new SqlConnection(Commons.CONNSTRING))
             {
                 conn.Open();
                 SqlCommand cmd = new SqlCommand();
@@ -194,7 +180,6 @@ namespace BookRentalShop20
                 cmd.Parameters.Add(parmDivision);
 
                 cmd.ExecuteNonQuery();
-
             }
         }
     }

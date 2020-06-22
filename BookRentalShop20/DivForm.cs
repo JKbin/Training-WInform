@@ -10,7 +10,6 @@ namespace BookRentalShop20
 {
     public partial class DivForm : MetroForm
     {
-        string strConnString = "Data Source=192.168.0.83;Initial Catalog=BookRentalDB;Persist Security Info=True;User ID=sa;Password=p@ssw0rd!";
         string mode = "";
         public DivForm()
         {
@@ -26,7 +25,7 @@ namespace BookRentalShop20
         {
             //throw new NotImplementedException();
 
-            using (SqlConnection conn = new SqlConnection(strConnString))               //strConnString : 데이터문자열 (이게있어야 DB연동가능)
+            using (SqlConnection conn = new SqlConnection(Commons.CONNSTRING))               //strConnString : 데이터문자열 (이게있어야 DB연동가능)
             {
                 conn.Open();    // DB열기
                 string strQuery = "SELECT Division ,Names FROM divtbl ";                //마지막에 띄어쓰기(쿼리문에 띄어쓰기, 아니면 Errotr가 날 수도있음)
@@ -99,7 +98,7 @@ namespace BookRentalShop20
 
             }
             //DB저장프로세스
-            using (SqlConnection conn = new SqlConnection(strConnString))
+            using (SqlConnection conn = new SqlConnection(Commons.CONNSTRING))
             {
                 conn.Open();
                 SqlCommand cmd = new SqlCommand();
@@ -158,7 +157,7 @@ namespace BookRentalShop20
 
         private void DeleteProcess()
         {
-            using (SqlConnection conn = new SqlConnection(strConnString))
+            using (SqlConnection conn = new SqlConnection(Commons.CONNSTRING))
             {
                 conn.Open();
                 SqlCommand cmd = new SqlCommand();
