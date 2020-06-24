@@ -1,0 +1,15 @@
+C:\SRC\Training-Winform\WPFControlApp\bin\Debug\WPFControlApp.exe.config
+C:\SRC\Training-Winform\WPFControlApp\bin\Debug\WPFControlApp.exe
+C:\SRC\Training-Winform\WPFControlApp\bin\Debug\WPFControlApp.pdb
+C:\SRC\Training-Winform\WPFControlApp\obj\Debug\WPFControlApp.csprojAssemblyReference.cache
+C:\SRC\Training-Winform\WPFControlApp\obj\Debug\MainWindow.g.cs
+C:\SRC\Training-Winform\WPFControlApp\obj\Debug\App.g.cs
+C:\SRC\Training-Winform\WPFControlApp\obj\Debug\WPFControlApp_MarkupCompile.cache
+C:\SRC\Training-Winform\WPFControlApp\obj\Debug\MainWindow.baml
+C:\SRC\Training-Winform\WPFControlApp\obj\Debug\WPFControlApp.g.resources
+C:\SRC\Training-Winform\WPFControlApp\obj\Debug\WPFControlApp.Properties.Resources.resources
+C:\SRC\Training-Winform\WPFControlApp\obj\Debug\WPFControlApp.csproj.GenerateResource.cache
+C:\SRC\Training-Winform\WPFControlApp\obj\Debug\WPFControlApp.csproj.CoreCompileInputs.cache
+C:\SRC\Training-Winform\WPFControlApp\obj\Debug\WPFControlApp.exe
+C:\SRC\Training-Winform\WPFControlApp\obj\Debug\WPFControlApp.pdb
+C:\SRC\Training-Winform\WPFControlApp\obj\Debug\WPFControlApp_Content.g.cs

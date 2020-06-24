@@ -1,0 +1,14 @@
+﻿<Window x:Class="WPFControlApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ToggleButton Content="Button" HorizontalAlignment="Left" Margin="92,73,0,0" VerticalAlignment="Top" Width="121" Height="74" TabIndex="0"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="152,184,0,0" VerticalAlignment="Top" TabIndex="1"/>
+        <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="152,249,0,0" VerticalAlignment="Top" TabIndex="2"/>
+
+    </Grid>
+</Window>
