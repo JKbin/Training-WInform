@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BikeShop"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" MinHeight="320" MinWidth="530">
+        Title="MainWindow" Height="559.884" Width="784.302" MinHeight="320" MinWidth="530">
     <Grid x:Name="MainFrame" Margin="0,27,18.6,0">
         <Frame Content="Frame" HorizontalAlignment="Left"  VerticalAlignment="Top" Source="/Menu.xaml" Height="383" Width="765"/>
 

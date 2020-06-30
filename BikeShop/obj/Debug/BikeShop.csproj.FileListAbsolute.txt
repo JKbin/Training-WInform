@@ -16,7 +16,9 @@ C:\SRC\Training-Winform\BikeShop\obj\Debug\BikeShop.csproj.CoreCompileInputs.cac
 C:\SRC\Training-Winform\BikeShop\obj\Debug\BikeShop.exe
 C:\SRC\Training-Winform\BikeShop\obj\Debug\BikeShop.pdb
 C:\SRC\Training-Winform\BikeShop\obj\Debug\Menu.g.cs
-C:\SRC\Training-Winform\BikeShop\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\SRC\Training-Winform\BikeShop\obj\Debug\Menu.baml
 C:\SRC\Training-Winform\BikeShop\obj\Debug\Test.g.cs
 C:\SRC\Training-Winform\BikeShop\obj\Debug\Test.baml
+C:\SRC\Training-Winform\BikeShop\obj\Debug\Discussion.g.cs
+C:\SRC\Training-Winform\BikeShop\obj\Debug\Discussion.baml
+C:\SRC\Training-Winform\BikeShop\obj\Debug\GeneratedInternalTypeHelper.g.cs

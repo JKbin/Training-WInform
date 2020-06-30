@@ -147,7 +147,7 @@ namespace BookRentalShop20
             TxtIdx.BackColor = Color.Beige;
             TxtAuthor.Focus();
 
-            DtpReleaseDate.CustomFormat = " ";
+            DtpReleaseDate.CustomFormat = "";
             DtpReleaseDate.Format = DateTimePickerFormat.Custom;
 
 

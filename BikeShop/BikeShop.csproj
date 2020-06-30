@@ -55,10 +55,25 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="assets\Notifier.cs" />
+    <Compile Include="assets\ProductsFactory.cs" />
+    <Compile Include="assets\RelayCommand.cs" />
+    <Compile Include="assets\Talk.cs" />
+    <Compile Include="BaseClass.cs" />
+    <Compile Include="Child.cs" />
+    <Compile Include="Discussion.xaml.cs">
+      <DependentUpon>Discussion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Notifier.cs" />
+    <Compile Include="Parent.cs" />
     <Compile Include="Test.xaml.cs">
       <DependentUpon>Test.xaml</DependentUpon>
     </Compile>
     <Page Include="Contact.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Discussion.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -115,6 +130,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="assets\chat.png" />
+    <Resource Include="assets\contact.jpg" />
+    <Resource Include="assets\velo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

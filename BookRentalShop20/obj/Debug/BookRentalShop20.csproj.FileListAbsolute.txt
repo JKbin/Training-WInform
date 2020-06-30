@@ -17,3 +17,4 @@ C:\SRC\Training-Winform\BookRentalShop20\obj\Debug\BookRentalShop20.DivForm.reso
 C:\SRC\Training-Winform\BookRentalShop20\obj\Debug\BookRentalShop20.UserForm.resources
 C:\SRC\Training-Winform\BookRentalShop20\obj\Debug\BookRentalShop20.MemberForm.resources
 C:\SRC\Training-Winform\BookRentalShop20\obj\Debug\BookRentalShop20.BooksForm.resources
+C:\SRC\Training-Winform\BookRentalShop20\obj\Debug\BookRentalShop20.RentalForm.resources
